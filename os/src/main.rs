@@ -20,6 +20,7 @@ mod loader;
 mod config;
 mod task;
 mod timer;
+mod sync;
 mod mm;
 
 global_asm!(include_str!("entry.asm"));
